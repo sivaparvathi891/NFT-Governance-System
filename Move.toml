@@ -1,0 +1,16 @@
+[package]
+name = "governance"
+version = "1.0.0"
+authors = []
+
+[addresses]
+paru_addr="ce37cea830554878f12dcfd7134a360a7635032ea4add9e14ec3bfb3ccc77ec9"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
